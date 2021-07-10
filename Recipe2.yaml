@@ -43,7 +43,7 @@ tasks:
     dest: ./resources/EasyAdmin
 
   - action: download_github
-    src: https://github.com/iSAlexHere/async
+    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx%5D/async
     ref: e7b778f0c7236132596e98d8ebd33e1127dbb4c4
     dest: ./resources/async
 
@@ -58,12 +58,12 @@ tasks:
     dest: ./resources/cron
 
   - action: download_github
-    src: https://github.com/esx-framework/instance
+    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/instance
     ref: 21cea1fee9f666ac3a30b9b03d6f8b5f21afb57d
     dest: ./resources/instance
 
   - action: download_github
-    src: https://github.com/esx-framework/skinchanger
+    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx%5D/skinchanger
     ref: d716177f226ad696d903a27d7afa3ca97ce80a3b
     dest: ./resources/skinchanger
 
@@ -89,7 +89,7 @@ tasks:
     dest: ./resources/[esx]/esx-legacy
 
   - action: download_github
-    src: https://github.com/esx-framework/esx_menu_default
+    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx%5D/esx_menu_default
     ref: 2d46087ade9369c46df1d80b706dc13e6e4ac673
     dest: ./resources/[esx]/esx_menu_default
 
