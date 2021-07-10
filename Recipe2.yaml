@@ -99,7 +99,7 @@ tasks:
     dest: ./resources/[esx]/esx_menu_dialog
 
   - action: download_github
-    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx%5D/esx_menu_list
+    src: https://github.com/esx-framework/esx_menu_list
     ref: c4c88a9afd475074213d2586d09ac091c389c369
     dest: ./resources/[esx]/esx_menu_list
 
