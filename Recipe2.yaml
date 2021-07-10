@@ -1,5 +1,5 @@
 $engine: 3
-name: PlumeESX
+name: KentESX
 version: 2.2.0
 author: Tabarra & Chip
 description: A full featured (13 jobs) and highly configurable yet lightweight ESX v1-final base that can be easily extended. 
@@ -134,7 +134,7 @@ tasks:
     dest: ./resources/[esx]/esx_billing
 
   - action: download_github
-    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_addoninventory
+    src: https://github.com/esx-framework/esx_addoninventory
     ref: 5709570bc2cda27e08159536e3a6c9d1a3734915
     dest: ./resources/[esx]/esx_addoninventory
 
@@ -149,17 +149,17 @@ tasks:
     dest: ./resources/[esx]/esx_society
 
   - action: download_github
-    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_license
+    src: https://github.com/esx-framework/esx_license
     ref: 4a791b81827f17f7e31aeac1fb15f3c9c9ec6764
     dest: ./resources/[esx]/esx_license
 
   - action: download_github
-    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_service
+    src: https://github.com/esx-framework/esx_service
     ref: 0c85c4e4b212015fbf97a4707ad59aa55904768d
     dest: ./resources/[esx]/esx_service
 
   - action: download_github
-    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_garage
+    src: https://github.com/esx-framework/esx_garage
     ref: 6ae703b18965452d148541c061f830469c8a8bd9
     dest: ./resources/[esx]/esx_garage
 
@@ -174,7 +174,7 @@ tasks:
     dest: ./resources/[esx]/esx_jobs
 
   - action: download_github
-    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_joblisting
+    src: https://github.com/esx-framework/esx_joblisting
     ref: bbce9722a24269e667d00cc26b7c6408f29cdfb7
     dest: ./resources/[esx]/esx_joblisting
 
@@ -184,17 +184,17 @@ tasks:
     dest: ./resources/[esx]/esx_policejob
 
   - action: download_github
-    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_ambulancejob
+    src: https://github.com/esx-framework/esx_ambulancejob
     ref: ba0961095c8a31f1d993c2c13f913dbb37bf52bf
     dest: ./resources/[esx]/esx_ambulancejob
 
   - action: download_github
-    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_mechanicjob
+    src: https://github.com/esx-framework/esx_mechanicjob
     ref: d0e414fc96d3a07a68cafd57aaff954baa28bf99
     dest: ./resources/[esx]/esx_mechanicjob
 
   - action: download_github
-    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_taxijob
+    src: https://github.com/esx-framework/esx_taxijob
     ref: 0f69bfce0a8f587abcfc7e9567fffd3fa53e663c
     dest: ./resources/[esx]/esx_taxijob
 
@@ -204,7 +204,7 @@ tasks:
     dest: ./resources/[esx]/esx_lscustom
 
   - action: download_github
-    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_atm
+    src: https://github.com/esx-framework/esx_atm
     ref: e2d7eead18284052e5732856bf93a4b439764c61
     dest: ./resources/[esx]/esx_atm 
 
@@ -214,12 +214,12 @@ tasks:
     dest: ./resources/[esx]/esx_shops
 
   - action: download_github
-    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_weaponshop
+    src: https://github.com/esx-framework/esx_weaponshop
     ref: b42afd53e3f9876c357962a9d79d86dc6919fde0
     dest: ./resources/[esx]/esx_weaponshop
 
   - action: download_github
-    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_clotheshop
+    src: https://github.com/esx-framework/esx_clotheshop
     ref: 04183ae7c0a9c1505b37a13bb4e2bbd195862511
     dest: ./resources/[esx]/esx_clotheshop
 
@@ -234,7 +234,7 @@ tasks:
     dest: ./resources/[esx]/esx_drugs
 
   - action: download_github
-    src: https://github.com/esx-framework/esx-legacy/tree/main/%5Besx_addons%5D/esx_holdup
+    src: https://github.com/esx-framework/esx_holdup
     ref: ee9c916ebf955abefa3bfdbd20a773122b865a22
     dest: ./resources/[esx]/esx_holdup
 
